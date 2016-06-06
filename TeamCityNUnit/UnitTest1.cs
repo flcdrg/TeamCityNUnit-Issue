@@ -14,6 +14,12 @@ namespace TeamCityNUnit
             Console.WriteLine("Inside TestFixtureSetUp");    
         }
 
+        [SetUp]
+        public void SetUp()
+        {
+            Console.WriteLine("Inside SetUp");
+        }
+
         [Test]
         public void TestMethod1()
         {
